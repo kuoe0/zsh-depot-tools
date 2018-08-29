@@ -1,4 +1,0 @@
-#!/bin/bash
-
-[ -e "build/git-hooks/post-checkout" ] && exec bash "build/git-hooks/post-checkout" "$@"
-exit 0
